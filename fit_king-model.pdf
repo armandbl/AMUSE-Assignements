@@ -1,0 +1,517 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Contents 16 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 15 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Outlines 9 0 R /PageLabels 17 0 R /PageMode /UseNone /Pages 15 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author () /CreationDate (D:20260914135614+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260914135614+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Assignment 1: Star Cluster Structure and Modeling) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 5 /First 10 0 R /Last 14 0 R /Type /Outlines
+>>
+endobj
+10 0 obj
+<<
+/Dest [ 6 0 R /XYZ 57.02362 657.0236 0 ] /Next 11 0 R /Parent 9 0 R /Title (1. Install AMUSE on your laptop)
+>>
+endobj
+11 0 obj
+<<
+/Dest [ 6 0 R /XYZ 57.02362 624.0236 0 ] /Next 12 0 R /Parent 9 0 R /Prev 10 0 R /Title (2. Explore the provided star cluster data)
+>>
+endobj
+12 0 obj
+<<
+/Dest [ 6 0 R /XYZ 57.02362 441.0236 0 ] /Next 13 0 R /Parent 9 0 R /Prev 11 0 R /Title (3. Fit a King model to the cluster)
+>>
+endobj
+13 0 obj
+<<
+/Dest [ 6 0 R /XYZ 57.02362 300.0236 0 ] /Next 14 0 R /Parent 9 0 R /Prev 12 0 R /Title (4. Validate your King fitting routine)
+>>
+endobj
+14 0 obj
+<<
+/Dest [ 6 0 R /XYZ 57.02362 147.0236 0 ] /Parent 9 0 R /Prev 13 0 R /Title (5. What to hand in)
+>>
+endobj
+15 0 obj
+<<
+/Count 1 /Kids [ 6 0 R ] /Type /Pages
+>>
+endobj
+16 0 obj
+<<
+/Length 7390
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 57.02362 741.0236 cm
+q
+.133333 .133333 .133333 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 35.06417 0 Td (Assignment 1: Star Cluster Structure and Modeling) Tj T* -35.06417 0 Td ET
+Q
+Q
+q
+1 0 0 1 57.02362 669.0236 cm
+q
+BT 1 0 0 1 0 26 Tm -0.075728 Tw 12 TL /F1 10 Tf 0 0 0 rg (This assignment guides you through the analysis, modeling, and validation of a star cluster using the AMUSE) Tj T* 0 Tw .910491 Tw (framework. You will explore real cluster data, fit a King model, validate your fitting routine, and assess the) Tj T* 0 Tw (dynamical state and expected lifetime of the cluster.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 636.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (1. Install AMUSE on your laptop) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 603.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (2. Explore the provided star cluster data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 585.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Download the file ) Tj /F3 10 Tf (star_cluster_001.amuse) Tj /F1 10 Tf ( from the course website.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 567.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Write a Python/AMUSE script that:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 561.0236 cm
+Q
+q
+1 0 0 1 57.02362 561.0236 cm
+Q
+q
+1 0 0 1 57.02362 549.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Reads the particle set.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 543.0236 cm
+Q
+q
+1 0 0 1 57.02362 531.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Computes and plot the radial number density profile ) Tj /F3 10 Tf (n\(r\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 525.0236 cm
+Q
+q
+1 0 0 1 57.02362 501.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .960642 Tw (Annotate the figure with cluster parameters, including: core radius, half-mass radius, and tidal radius.) Tj T* 0 Tw (Include clear axis labels, units, and short captions explaining the physical meaning of the figure.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 495.0236 cm
+Q
+q
+1 0 0 1 57.02362 471.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL -0.028425 Tw (Comput the cluster's virial ratio, and estimate the survival time of the cluster on a Solar-circle orbit in the) Tj T* 0 Tw (Galactic tidal field.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 471.0236 cm
+Q
+q
+1 0 0 1 57.02362 453.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (Deliverable:) Tj /F1 10 Tf ( The annotated plot with caption.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 420.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (3. Fit a King model to the cluster) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 402.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Write a Python/AMUSE routine that:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 396.0236 cm
+Q
+q
+1 0 0 1 57.02362 396.0236 cm
+Q
+q
+1 0 0 1 57.02362 384.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Reads ) Tj /F3 10 Tf (star_cluster_001.amuse) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 378.0236 cm
+Q
+q
+1 0 0 1 57.02362 366.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Fits a King model to extract the concentration parameter ) Tj /F3 10 Tf (W0) Tj /F1 10 Tf (, core radius ) Tj /F3 10 Tf (rc) Tj /F1 10 Tf (, and tidal radius ) Tj /F3 10 Tf (rt) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 360.0236 cm
+Q
+q
+1 0 0 1 57.02362 348.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Produces a plot showing the data and the fitted King model.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 348.0236 cm
+Q
+q
+1 0 0 1 57.02362 330.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Comment on the quality of the fit and the physical plausibility of the parameters.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 312.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (Deliverable:) Tj /F1 10 Tf ( An annotated figure with caption of the data and overplotted the King-model fit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 279.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (4. Validate your King fitting routine) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 261.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Write a small AMUSE script that:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 255.0236 cm
+Q
+q
+1 0 0 1 57.02362 255.0236 cm
+Q
+q
+1 0 0 1 57.02362 243.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Generates a synthetic King-model cluster with chosen ) Tj /F3 10 Tf (W0) Tj /F1 10 Tf (, ) Tj /F3 10 Tf (rc) Tj /F1 10 Tf (, for ) Tj /F3 10 Tf (N) Tj /F1 10 Tf ( particles.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 237.0236 cm
+Q
+q
+1 0 0 1 57.02362 225.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Saves the synthetic cluster as an AMUSE particle set.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 219.0236 cm
+Q
+q
+1 0 0 1 57.02362 207.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Applies your fitting routine to recover ) Tj /F3 10 Tf (W0) Tj /F1 10 Tf (, ) Tj /F3 10 Tf (rc) Tj /F1 10 Tf (, and ) Tj /F3 10 Tf (rt) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 207.0236 cm
+Q
+q
+1 0 0 1 57.02362 177.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.587223 Tw (Compare the recovered parameters to the input values and discuss the accuracy and limitations of your) Tj T* 0 Tw (method.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 159.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (Deliverable:) Tj /F1 10 Tf ( In class you may be asked to comment on your figure and fit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 126.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (5. What to hand in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 96.02362 cm
+q
+BT 1 0 0 1 0 14 Tm 1.698022 Tw 12 TL /F1 10 Tf 0 0 0 rg (Submit on ) Tj /F4 10 Tf (Monday 5 October) Tj /F1 10 Tf ( * PDF document description of your findings containing * Two figures \(1) Tj T* 0 Tw (page\). * Explanation, methods, and interpretation \(1 page\).) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+17 0 obj
+<<
+/Nums [ 0 18 0 R ]
+>>
+endobj
+18 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000073 00000 n 
+0000000134 00000 n 
+0000000241 00000 n 
+0000000350 00000 n 
+0000000455 00000 n 
+0000000567 00000 n 
+0000000772 00000 n 
+0000000876 00000 n 
+0000001182 00000 n 
+0000001255 00000 n 
+0000001386 00000 n 
+0000001540 00000 n 
+0000001687 00000 n 
+0000001837 00000 n 
+0000001955 00000 n 
+0000002015 00000 n 
+0000009457 00000 n 
+0000009498 00000 n 
+trailer
+<<
+/ID 
+[<a21f6cb5328c6bd2c516e4a6fd617265><a21f6cb5328c6bd2c516e4a6fd617265>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 19
+>>
+startxref
+9532
+%%EOF
