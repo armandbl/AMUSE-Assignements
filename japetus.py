@@ -5,6 +5,8 @@ from amuse.ext.orbital_elements import get_orbital_elements_from_binary, new_bin
 from matplotlib import pyplot as plt
 from amuse.plot import scatter
 from amuse.community.ph4.interface import ph4
+import numpy as np
+
 
 def intitial_conditions():
     
@@ -39,13 +41,49 @@ def intitial_conditions():
     
     return binary
 
+
+def semi_to_orbital_period(a, M1, M2):
+    """Calculate the orbital period of a binary system given the semi-major axis and masses."""
+    p = 2 * np.pi * np.sqrt(a**3 / (constants.G * (M1 + M2)))
+    return p.as_quantity_in(units.s)
+
+def make_movie(bodies, prob, dt, gravity, channel_from_gravity):
+    import os
+    import subprocess
+    os.makedirs("Snapshots", exist_ok=True)
+    time = 0 | units.yr
+    frame = 0
+    while time < prob:
+        time += dt
+        gravity.evolve_model(time)
+        channel_from_gravity.copy()
+        plt.figure(figsize=(8, 8))
+        scatter(bodies.x, bodies.y, c='b')
+        plt.xlim(-11, 11)
+        plt.ylim(-11, 11)
+        
+        plt.xlabel("x [AU]")
+        plt.ylabel("y [AU]")
+        plt.gca().set_aspect('equal', adjustable='box')
+        plt.savefig(f"Snapshots/frame_{frame:04d}.png")
+        plt.close()
+        frame += 1
+        print(f"Saved frame {frame} at time {time.in_(units.yr)}")
+    try:
+        subprocess.run(
+            ["convert", "-delay", "5", "-loop", "0",
+             "Snapshots/frame_*.png", "japetus_orbit.gif"],
+            check=True,
+        )
+        print(f"Saved {frame} frames and japetus_orbit.gif")
+    except Exception as ex:
+        print(f"Saved {frame} frames (could not stitch GIF: {ex})")
+
+
 if __name__ == '__main__':
     bodies = intitial_conditions()
     print(bodies)
-    plt.figure(figsize=(8, 8))
-    scatter(bodies.position.x, bodies.position.y,c = 'b')
-    # plt.show()
-    
+
     a = [] |units.AU
     e = []
     for pair in [bodies[0:2], bodies[1:3]]:
@@ -60,10 +98,11 @@ if __name__ == '__main__':
     gravity = ph4(converter)
     gravity.particles.add_particles(bodies)
     channel_from_gravity = gravity.particles.new_channel_to(bodies)
+    #prob Jupiter's orbital period
+    prob = semi_to_orbital_period(a[0], bodies[0].mass, bodies[1].mass)
+    time = 0 | units.yr
+    dt = prob/100
     
+    make_movie(bodies, prob, dt, gravity, channel_from_gravity)
     
-    gravity.evolve_model(2 | units.yr)
-    channel_from_gravity.copy()
-    scatter(bodies.position.x, bodies.position.y,c = 'r')
-    plt.show()
-    
+    gravity.stop()
