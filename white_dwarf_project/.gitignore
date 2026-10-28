@@ -1,0 +1,34 @@
+# White Dwarf Project — Git Ignore
+
+
+# Generated outputs
+/data/*
+!/data/.gitkeep
+
+# Generated figures
+/figures/*
+!/figures/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment and local configuration files
+.env
+.env.*
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# AMUSE generated files
+/binev.data
+/SeBa.data
