@@ -66,3 +66,4 @@ if __name__ == '__main__':
     channel_from_gravity.copy()
     scatter(bodies.position.x, bodies.position.y,c = 'r')
     plt.show()
+    
