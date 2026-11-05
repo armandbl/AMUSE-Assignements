@@ -1,2 +1,22 @@
-white_dwarf_project/notebooks/02b_stellar_sampling_convergence.ipynb
 /Snapshots/
+
+# Ignore all simulation data
+/white_dwarf_project/data/
+
+# Ignore unfinished notebooks
+white_dwarf_project/notebooks/02b_stellar_sampling_convergence.ipynb
+/white_dwarf_project/notebooks/04_mass_loss_coupling.ipynb
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Python environments
+.venv/
+venv/
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
