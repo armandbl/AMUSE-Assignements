@@ -4,8 +4,7 @@
 /white_dwarf_project/data/
 
 # Ignore unfinished notebooks
-white_dwarf_project/notebooks/02b_stellar_sampling_convergence.ipynb
-/white_dwarf_project/notebooks/04_mass_loss_coupling.ipynb
+/white_dwarf_project/notebooks/05_tides.ipynb
 
 # Python cache
 __pycache__/
@@ -20,3 +19,8 @@ venv/
 # Ignore OS generated files
 .DS_Store
 Thumbs.db
+
+
+# Ignore AMUSE generated files
+/white_dwarf_project/notebooks/binev.data
+/white_dwarf_project/notebooks/SeBa.data
