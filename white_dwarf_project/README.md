@@ -60,3 +60,5 @@ This is a section of explanations on AMUSE and numerical terminology I found con
 | **Stellar age / window time / local clock** | Age counts from the stellar run's start; window time from the AGB segment's start. The solver's local clock advances each short interval from zero, keeping total time separately for numerical precision. |
 
 
+TODO: check computation time, if possible check the parameterspace for planet survival w and wo brown dwarf?
+TODO: fix ipynb git changes, only account for source code change and ignore outputs?
