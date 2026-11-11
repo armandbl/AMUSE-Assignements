@@ -22,5 +22,6 @@ Thumbs.db
 
 
 # Ignore AMUSE generated files
+white_dwarf_project/notebooks/binev.data 
 /white_dwarf_project/notebooks/binev.data
 /white_dwarf_project/notebooks/SeBa.data
