@@ -76,4 +76,5 @@ This is what I have found on how we can parallelize/accelerate different amuse s
 
 # Todos
 TODO: check computation time, if possible check the parameterspace for planet survival w and wo brown dwarf?
-TODO: fix ipynb git changes, only account for source code change and ignore outputs?
+TODO(Siquan): report writing
+
